@@ -9,6 +9,12 @@ public class PlayerMovement : MonoBehaviour
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
 
+    public float maxSpeed = 10f;
+
+    public float gravity = -100f;
+
+    Vector3 velocity;
+
 
     
     // Update is called once per frame
@@ -28,6 +34,13 @@ public class PlayerMovement : MonoBehaviour
         if (rb.position.y < -1f){
             FindObjectOfType<GameManager>().EndGame();
         }
+
+
+        if(rb.velocity.magnitude > maxSpeed){
+            rb.velocity = rb.velocity.normalized * maxSpeed;
+         }
+
+         velocity.y += gravity * Time.deltaTime;
     }
 
     
