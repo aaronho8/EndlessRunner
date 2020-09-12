@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\SpawnManager.cs" />
      <None Include="Assets\Imports\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
      <None Include="Assets\Imports\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Basic.shader" />
+     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
      <None Include="Assets\Imports\kenney_natureKit_2.1 2\License.txt" />
      <None Include="Assets\Imports\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
      <None Include="Assets\Imports\Roboto\LICENSE.txt" />
